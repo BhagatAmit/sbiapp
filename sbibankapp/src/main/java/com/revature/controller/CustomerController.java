@@ -17,6 +17,8 @@ public class CustomerController {
 	@GetMapping("/greeting")
 	public String invite() {
 		System.out.println("hello amit");
+		System.out.println("hello everyone");
+
 		return "greeting to you";
 	}
 	@GetMapping("/customers")
